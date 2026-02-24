@@ -1,0 +1,259 @@
+body {
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(161, 218, 161);
+  width: 100%;
+  padding: 20px 0;
+  gap: 300px;
+
+ 
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo h2{
+color: white;
+font-size: 24px;
+}
+.section{
+    display: flex;
+    background-color: rgb(161, 218, 161);
+    padding: 20px;
+    padding-top: 20px;
+    gap: 10%;
+}
+.section h1{
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+}
+.section h2{
+    font-size: 35px;
+    color: white;
+}
+.section p{
+    color: white;
+}
+.btn{
+     width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.partners{
+     font-size: 26px;
+}
+.img{
+    text-align: center;
+}
+.img h3{
+    color: rgb(136, 241, 136);
+}
+.section-image{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    cursor: pointer;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+  padding-bottom: 10px;
+
+    
+}
+.btn3{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+}
+.part3{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 5%;
+    /* background-color: rgb(152, 232, 232); */
+}
+.text{
+    padding-top: 2%;
+    font-size: 28px;
+}
+.btn4{
+     width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    /* background-color: aliceblue; */
+}
+.part-img{
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+.btn5{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.side{
+    padding-top: 20px;
+    /* background-color: bisque; */
+}
+.side1{
+    text-align: center; 
+}
+.side1 h3{
+    color: rgb(135, 222, 135);
+    font-size: 28px;
+}
+.side1 h2{
+    font-size: 40px;
+}
+.side1 p{
+    font-size: 23px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding-top:15px;
+}
+.btn11{
+    display: flex;
+    align-content: center;
+    padding-top: 20px;
+}
+.footer{
+    background-color: green;
+    height: 120px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    gap: 20px;
+    font-size: 28px;
+    padding-top: 28px;
+}
+.footer-text{
+    padding-right: 20%;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 18px;
+}
+.hero h1{
+    color: rgb(134, 239, 134);
+    font-size: 25px;
+}
+.hero h2{
+    font-size: 29px;
+}
+.heading p{
+    color: black;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid-card{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+
+
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+.grid img{
+    height: 95%;
+    width: 95%;
+}
+.grid-side{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-side img{
+    height: 85%;
+    width: 85%;
+    cursor: pointer;
+}
+.section10{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+}
+.input{
+    height: 60px;
+}
+.im4{
+    width: 90%;
+}
+.btn10{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+
+
+
